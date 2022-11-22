@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta content='#112749' name='theme-color' />
+  <meta content='#112749' name='msapplication-navbutton-color' />
+  <meta content='yes' name='apple-mobile-web-app-capable' />
+  <meta content='#112749' name='apple-mobile-web-app-status-bar-style' />
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Volkhov&display=swap"
+    rel="stylesheet">
+
+  <!-- icon -->
+  <link rel="icon" type="image/x-icon" href="img/mim blue.png" />
+
+  <title>Portfolio | Siti Nurjanah</title>
+</head>
+
+<body id="home">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark shadow p-1 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-1" href="#"> <img src="img/mim white.png" width="50" height="40"
+          class="logoMim rounded float-start" /></a>
+
+      <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span onclick="myFunction(this)">
+          <p class="bar1"></p>
+          <p class="bar2"></p>
+          <p class="bar3"></p>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-2">
+          <!-- Darkmode -->
+          <li class="nav-item me-2">
+            <div>
+              <input type="checkbox" class="checkbox" id="checkbox" onclick="darkMode()" />
+              <label for="checkbox" class="label">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+                <div class="ball"></div>
+              </label>
+            </div>
+          </li>
+          <!-- akhir Darkmode -->
+
+          <li class="nav-item me-2">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Jumbotron -->
+  <section id="particles-js" class="jumbotron text-center">
+    <div class="jumbotron-img">
+      <img src="img/pp.png" alt="Mardian Suherman" width="200px" class="rounded-circle " />
+      <h3 class="display-4">Siti Nurjanah</h3>
+
+      <h4 class="iam">I'm <div class="typing"></div>
+      </h4>
+      <br />
+      <br />
+
+      <a class="whatsapp text-decoration-none" href="whatsapp://send?text=Assalamualaikum&phone=+6285777335715"><button
+          class="btn btn-primary btn-sm"><i class="fa-brands fa-whatsapp"></i> Whatsapp </button></a>
+      <a href="img/Siti Nurjanah CV.pdf"> <button class="btn btn-primary btn-sm"><i class="fa-solid fa-download"></i>
+          Download CV</button></a>
+
+    </div>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="container ">
+      <div class="row text-center mb-4 justify-content-center">
+        <div class="col-10 col-md-12">
+          <h2 class="mb-3 mt-4">ABOUT ME</h2>
+
+          <div class="row justify-content-center text-center ">
+
+            <div class="col-md-6 col-lg-5 mb-5 mt-md-3">
+              <p class="text-center">
+                Hi, I am Siti Nurjanah <br />
+                from Cianjur, <br />
+                Someone who is detail oriented, has good problem solving skills. I am interested in Software Quality Assurance Tester because this position provides me with opportunities to grow and a platform for me to create dynamic and responsive websites.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container-fluid">
+
+      <div class="row text-center">
+        <h2 class="gallery mb-3 mt-4 ">SKILLS</h2>
+
+        <div class="col-10 offset-1">
+          <div id="image-gallery" class="row justify-content-center">
+            <div class="col-6 col-md-6 mb-3">
+              <div class="card">
+                  <img src="img/Documentation/1P.png" class="card-img-top" /></a>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    <a href="https://katalon.com/" class="text-decoration-none">Tools Automatic Testing (Katalon)</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 mb-3">
+              <div class="card">
+                  <img src="img/Documentation/2p.png" class="card-img-top" /></a>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    <a href="https://www.w3schools.com/html/html_scripts.asp" class="text-decoration-none">Bootstrap, JavaScript, CSS, HTML</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 mb-3">
+              <div class="card">
+                  <img src="img/Documentation/3p.png" class="card-img-top" /></a>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    <a href="https://laravel.com/" class="text-decoration-none">Use PHP with Framework Laravel</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 mb-3">
+              <div class="card">
+                  <img src="img/Documentation/4p.png" class="card-img-top" /></a>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    <a href="https://www.mysql.com/" class="text-decoration-none">MySQL Database</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Akhir Skills -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center ">
+        <div class="col mb-5">
+          <h2 class="  mt-4">Let's Talk</h2>
+          <a href="whatsapp://send?text=Hello&phone=+6285777335715" class="text-decoration-none ">or Whatsapp
+            Me</a>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form name="contactMe">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="input name"
+                name="nama" minlength="3" maxlength="20" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="input email"
+                name="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="input your message" name="pesan"
+                minlength="5" maxlength="300" required></textarea>
+            </div>
+
+            <div class="text-center text-md-end">
+              <button type="submit" class="btn btn-sm btn-primary btn-kirim" onclick="doinsert()">Send</button>
+            </div>
+
+            <div class="text-center text-md-end">
+              <button class="btn btn-sm btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </div>
+
+          </form>
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            </p><i class="fa-solid fa-envelope-circle-check"></i>
+            Message sent successfully
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer style="width: 100%;">
+      <svg viewBox="0 0 120 28">
+        <defs>
+          <mask id="xxx">
+            <circle cx="7" cy="12" r="40" fill="#fff" />
+          </mask>
+
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="
+              1 0 0 0 0  
+              0 1 0 0 0  
+              0 0 1 0 0  
+              0 0 0 13 -9" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+          <path id="wave"
+            d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+        </defs>
+
+        <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+        <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+
+        <a href="#home">
+          <g class="topball">
+            <circle class="ball footer-ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0"
+              fill="rgba(13, 110, 253, 0.2)" />
+            <g class="arrow">
+              <polyline class="" points="108,8 110,6 112,8" fill="none" />
+              <polyline class="" points="110,6 110,10.5" fill="none" />
+            </g>
+          </g>
+        </a>
+
+        <g class="gooeff">
+          <circle class="drop drop1" cx="20" cy="2" r="1.8" />
+          <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
+          <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
+          <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+        </g>
+
+      </svg>
+    </footer>
+
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="col-8 offset-2 shadow-sm text-white text-center pb-5">
+      <p><i class="fa fa-copyright"></i> 2022 copyright : <strong> Siti Nurjanah</strong>
+      </p>
+
+      <a href="https://github.com/sitinurjanah7200" class="display-6 text-white fw-bold text-decoration-none"><i
+          class="fa-brands fa-github-square text-light me-4 me-md-5"></i></a>
+
+      <a href="https://www.instagram.com/snurjanah8818/" class="display-6 text-white fw-bold text-decoration-none"><i
+          class="fa-brands fa-instagram text-light me-4 me-md-5"></i></a>
+
+      <a href="https://web.facebook.com/febrian.noerjan/?_rdc=1&_rdr"
+        class="display-6 text-white fw-bold text-decoration-none"><i class="fa-brands fa-facebook text-light"></i></a>
+
+    </div>
+  </div>
+  <!-- Akhir Footer -->
+
+
+  <script src="assets/js/particle.js"></script>
+
+  <script src="assets/js/script.js"></script>
+
+  <script src="assets/js/bootstrap.js"></script>
+
+  <script src="assets/js/fontAwesome.js"></script>
+
+
+</body>
+
+</html>
